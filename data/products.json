@@ -1,0 +1,122 @@
+{
+  "products": [
+    {
+      "id": "mug-conan",
+      "name": "كوب كونان المرسوم يدوياً",
+      "name_en": "Hand-painted Conan Mug",
+      "category": "Detective Conan Collection",
+      "collection": "detective_conan",
+      "description": "كوب سيراميك أسود مطفى مرسوم عليه يدوياً شخصية كونان من Detective Conan بتفاصيل دقيقة",
+      "inspired_by_post": "post11-anime.jpg",
+      "tags": ["detective_conan", "conan", "anime", "handmade", "uniqpiece"],
+      "featured": true
+    },
+    {
+      "id": "mug-haibara",
+      "name": "كوب هايبارا (فِرمَث) المرسوم يدوياً",
+      "name_en": "Hand-painted Haibara / Vermouth Mug",
+      "category": "Detective Conan Collection",
+      "collection": "detective_conan",
+      "description": "كوب سيراميك أسود مطفى مرسوم عليه يدوياً شخصية هايبارا بأسلوب فني ناعم",
+      "inspired_by_post": "post03-conan-haibara.jpg",
+      "tags": ["detective_conan", "haibara", "vermouth", "anime", "handmade", "uniqpiece"],
+      "featured": true
+    },
+    {
+      "id": "mug-akai",
+      "name": "كوب أكاي شو المرسوم يدوياً",
+      "name_en": "Hand-painted Akai Shuichi Mug",
+      "category": "Detective Conan Collection",
+      "collection": "detective_conan",
+      "description": "كوب سيراميك أسود مطفى مرسوم عليه يدوياً شخصية أكاي شو بمنظار التصوير المميز",
+      "inspired_by_post": "post08-akai.jpg",
+      "tags": ["detective_conan", "akai", "anime", "handmade", "uniqpiece"],
+      "featured": true
+    },
+    {
+      "id": "mug-heiji",
+      "name": "كوب هيجي هاتوري المرسوم يدوياً",
+      "name_en": "Hand-painted Heiji Hattori Mug",
+      "category": "Detective Conan Collection",
+      "collection": "detective_conan",
+      "description": "كوب سيراميك أسود مطفى مرسوم عليه يدوياً شخصية هيجي هاتوري بلون أزرق مميز",
+      "inspired_by_post": "post07-heiji-hattori.jpg",
+      "tags": ["detective_conan", "heiji", "hattori", "anime", "handmade", "uniqpiece"],
+      "featured": false
+    },
+    {
+      "id": "mug-itachi",
+      "name": "كوب إيتاتشي المرسوم يدوياً",
+      "name_en": "Hand-painted Itachi Uchiha Mug",
+      "category": "Naruto Collection",
+      "collection": "naruto",
+      "description": "كوب سيراميك أسود مطفى مرسوم عليه يدوياً شخصية إيتاتشي أوتشها من Naruto بتفاصيل الشارينغان",
+      "inspired_by_post": "post04-itachi.jpg",
+      "tags": ["naruto", "itachi", "uchiha", "anime", "sharingan", "handmade", "uniqpiece"],
+      "featured": true
+    },
+    {
+      "id": "mug-sun-arabic",
+      "name": "كوب الشمس والخط العربي",
+      "name_en": "Sun & Arabic Calligraphy Mug",
+      "category": "Custom Art / Arabic Calligraphy",
+      "collection": "calligraphy",
+      "description": "كوب سيراميك أسود مطفى مرسوم عليه شمس بصفراء دافئة مع أبيات شعرية عربية على الكوب وقميص مرافق: 'حتى الشمس يا شمسي تحاول أن تشبهك'",
+      "inspired_by_post": "post01-cups-drawing.jpg",
+      "tags": ["arabic_calligraphy", "poetry", "sun", "handmade", "uniqpiece"],
+      "featured": true
+    },
+    {
+      "id": "mug-calligraphy-box",
+      "name": "كوب / علبة بخط عربي",
+      "name_en": "Calligraphy Mug with Custom Box",
+      "category": "Custom Art / Arabic Calligraphy",
+      "collection": "calligraphy",
+      "description": "كوب سيراميك مع علبة كرتون بنية مرسوم عليها بخط عربي أسود (عبارات مثل 'أحبك')",
+      "inspired_by_post": "post05-anime-drawing.jpg",
+      "tags": ["arabic_calligraphy", "love", "handmade", "uniqpiece"],
+      "featured": false
+    },
+    {
+      "id": "custom-mug",
+      "name": "كوب مخصص حسب الطلب",
+      "name_en": "Custom Hand-painted Mug on Demand",
+      "category": "Custom Art Commissions",
+      "collection": "custom",
+      "description": "اطلب رسم شخصيتك المفضلة أو كتابة اسمك أو عبارة مميزة على كوب أسود مطفى. كل قطعة فريدة من نوعها.",
+      "inspired_by_post": null,
+      "tags": ["custom", "personalized", "gift", "handmade", "uniqpiece"],
+      "featured": true
+    }
+  ],
+  "collections": [
+    {
+      "id": "detective_conan",
+      "name": "مجموعة Detective Conan",
+      "name_en": "Detective Conan Collection",
+      "description": "مجموعة كاملة من الأكواب المرسوم عليها شخصيات Detective Conan المفضلة: كونان، هايبارا، أكاي شو، هيجي هاتوري",
+      "items_count": 4
+    },
+    {
+      "id": "naruto",
+      "name": "مجموعة Naruto",
+      "name_en": "Naruto Collection",
+      "description": "أكواب مرسوم عليها شخصيات من عالم Naruto مثل إيتاتشي أوتشها بتفاصيل الشارينغان الدقيقة",
+      "items_count": 1
+    },
+    {
+      "id": "calligraphy",
+      "name": "مجموعة الخط العربي",
+      "name_en": "Arabic Calligraphy Collection",
+      "description": "أكواب وعلب مزينة بخط عربي أصيل مع أبيات شعرية وعبارات رومانسية",
+      "items_count": 2
+    },
+    {
+      "id": "custom",
+      "name": "مخصص حسب الطلب",
+      "name_en": "Custom Commissions",
+      "description": "اطلب تصميمك الخاص — شخصية، اسم، عبارة، أو ذكرى محددة",
+      "items_count": "unlimited"
+    }
+  ]
+}

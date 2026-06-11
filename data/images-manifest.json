@@ -1,0 +1,142 @@
+{
+  "account": "uniq_pi",
+  "total_images": 11,
+  "manifest": [
+    {
+      "file_name": "images/profile/profile.jpg",
+      "original_source": "https://www.instagram.com/uniq_pi/ (Profile Picture)",
+      "type": "profile",
+      "caption_or_note": "الصورة الرسمية للحساب - شعار UNIQ PIECE (دائرة سوداء مع monogram هندسي + كلمة UNIQ PIECE)",
+      "relevance_score": 10,
+      "suggested_section": "header / footer / favicon",
+      "dimensions": "150x150 (Instagram default profile size)",
+      "size_bytes": 4591
+    },
+    {
+      "file_name": "images/posts/post01-cups-drawing.jpg",
+      "original_source": "https://www.instagram.com/p/6727483215297210487159/",
+      "original_picnob_url": "https://www.picnob.com/post/6727483215297210487159/",
+      "type": "post",
+      "post_id": "6727483215297210487159",
+      "caption_or_note": "كوب أسود مطفى مرسوم عليه شمس ذهبية مع أبيات عربية 'حتى الشمس يا شمسي تحاول أن تشبهك' — يد شخص يشير للكوب على قميص قطني أبيض",
+      "relevance_score": 10,
+      "suggested_section": "hero / featured / calligraphy_collection",
+      "size_bytes": 47761
+    },
+    {
+      "file_name": "images/posts/post02-cups-drawing.jpg",
+      "original_source": "https://www.instagram.com/p/6727486610266821423970/",
+      "original_picnob_url": "https://www.picnob.com/post/6727486610266821423970/",
+      "type": "post",
+      "post_id": "6727486610266821423970",
+      "caption_or_note": "نفس فكرة البوست 1 - كوب أسود مع شمس وخط عربي (Reel cover)",
+      "relevance_score": 6,
+      "suggested_section": "gallery",
+      "size_bytes": 30731
+    },
+    {
+      "file_name": "images/posts/post03-conan-haibara.jpg",
+      "original_source": "https://www.instagram.com/p/6747545156564567436172/",
+      "original_picnob_url": "https://www.picnob.com/post/6747545156564567436172/",
+      "type": "post",
+      "post_id": "6747545156564567436172",
+      "caption_or_note": "كوب أسود مرسوم عليه شخصية فيرمَث (Vermouth) من Detective Conan — يد طفل تمسك الكوب على خلفية بيج دافئ",
+      "relevance_score": 10,
+      "suggested_section": "featured / detetive_conan_collection / gallery",
+      "size_bytes": 28566
+    },
+    {
+      "file_name": "images/posts/post04-itachi.jpg",
+      "original_source": "https://www.instagram.com/p/6735433042273338675226/",
+      "original_picnob_url": "https://www.picnob.com/post/6735433042273338675226/",
+      "type": "post",
+      "post_id": "6735433042273338675226",
+      "caption_or_note": "كرتون بنية عليها خط عربي أسود - 'أحبك' أو عبارة رومانسية بتصميم يدوي",
+      "relevance_score": 9,
+      "suggested_section": "calligraphy_collection / gallery",
+      "size_bytes": 16465
+    },
+    {
+      "file_name": "images/posts/post05-anime-drawing.jpg",
+      "original_source": "https://www.instagram.com/p/6735426141361167565757/",
+      "original_picnob_url": "https://www.picnob.com/post/6735426141361167565757/",
+      "type": "post",
+      "post_id": "6735426141361167565757",
+      "caption_or_note": "كرتون بنية عليها رسومات/كتابات عربية - يعكس التغليف مع الخط العربي",
+      "relevance_score": 7,
+      "suggested_section": "packaging_showcase / gallery",
+      "size_bytes": 12451
+    },
+    {
+      "file_name": "images/posts/post06-conan-haibara-reel.jpg",
+      "original_source": "https://www.instagram.com/p/6720374950504567674220/",
+      "original_picnob_url": "https://www.picnob.com/post/6720374950504567674220/",
+      "type": "post",
+      "post_id": "6720374950504567674220",
+      "caption_or_note": "غلاف Reel فيديو يرسم فيه شخصية هايبارا/كونان على كوب أسود - Conan❣️Habara",
+      "relevance_score": 9,
+      "suggested_section": "video_poster / featured",
+      "size_bytes": 29801
+    },
+    {
+      "file_name": "images/posts/post07-heiji-hattori.jpg",
+      "original_source": "https://www.instagram.com/p/6752114039137032254467/",
+      "original_picnob_url": "https://www.picnob.com/post/6752114039137032254467/",
+      "type": "post",
+      "post_id": "6752114039137032254467",
+      "caption_or_note": "كوب أسود مرسوم عليه شخصية هيجي هاتوري من Detective Conan بستايل أنمي مميز",
+      "relevance_score": 9,
+      "suggested_section": "detetive_conan_collection / gallery",
+      "size_bytes": 20928
+    },
+    {
+      "file_name": "images/posts/post08-akai.jpg",
+      "original_source": "https://www.instagram.com/p/6757217366716032715368/",
+      "original_picnob_url": "https://www.picnob.com/post/6757217366716032715368/",
+      "type": "post",
+      "post_id": "6757217366716032715368",
+      "caption_or_note": "كوب أسود مرسوم عليه شخصية أكاي شو من Detective Conan مع منظار التصوير - زاوية أمامية واضحة",
+      "relevance_score": 10,
+      "suggested_section": "detetive_conan_collection / featured / hero_alt",
+      "size_bytes": 22152
+    },
+    {
+      "file_name": "images/posts/post09-akai-shu.jpg",
+      "original_source": "https://www.instagram.com/p/6757142643357032582952/",
+      "original_picnob_url": "https://www.picnob.com/post/6757142643357032582952/",
+      "type": "post",
+      "post_id": "6757142643357032582952",
+      "caption_or_note": "نفس شخصية أكاي شو - زاوية مختلفة (الكوب على قماش قطني بيج)",
+      "relevance_score": 9,
+      "suggested_section": "detetive_conan_collection / gallery",
+      "size_bytes": 39138
+    },
+    {
+      "file_name": "images/posts/post11-anime.jpg",
+      "original_source": "https://www.instagram.com/p/6745644943574157281870/",
+      "original_picnob_url": "https://www.picnob.com/post/6745644943574157281870/",
+      "type": "post",
+      "post_id": "6745644943574157281870",
+      "caption_or_note": "كوب أسود مرسوم عليه شخصية كونان بعيون خضراء كبيرة - ستايل كلاسيكي أنمي",
+      "relevance_score": 10,
+      "suggested_section": "detetive_conan_collection / featured / gallery",
+      "size_bytes": 22229
+    }
+  ],
+  "missing_images": [
+    {
+      "post_id": "6757411672311157311665",
+      "reason": "فشل التنزيل من CDN (403 Forbidden) - محاولات متعددة",
+      "original_picnob_url": "https://www.picnob.com/post/6757411672311157311665/",
+      "note": "يمكن استخدام الرابط العام كبديل إذا لزم الأمر في قسم 'شاهد على إنستقرام'"
+    },
+    {
+      "post_id": "6745141735295832451110",
+      "reason": "فشل التنزيل من CDN (403 Forbidden) - محاولات متعددة",
+      "original_picnob_url": "https://www.picnob.com/post/6745141735295832451110/",
+      "note": "يمكن استخدام الرابط العام كبديل إذا لزم الأمر في قسم 'شاهد على إنستقرام'"
+    }
+  ],
+  "all_images_from_same_account": true,
+  "no_external_sources_used": true
+}
