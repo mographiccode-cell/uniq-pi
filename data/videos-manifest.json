@@ -1,0 +1,52 @@
+{
+  "account": "uniq_pi",
+  "total_videos_downloaded": 3,
+  "max_videos_allowed": 4,
+  "manifest": [
+    {
+      "file_name": "videos/posts/reel01-cups-drawing.mp4",
+      "original_source": "https://www.instagram.com/p/6727483215297210487159/",
+      "original_picnob_url": "https://www.picnob.com/post/6727483215297210487159/",
+      "original_video_url": "https://scontent-dfw5-1.cdninstagram.com/o1/v/t2/f2/m86/AQPvaqfxFTUPW4Wr2VJRN6og4jyIAOyqar15KUdimfxTCdZe9AkZXQc8YHHLtfYNcvxkBPBt7LItgGTuzFh_KOavxPeGMxbAPFXTqbs.mp4",
+      "type": "reel",
+      "post_id": "6727483215297210487159",
+      "caption_or_note": "Reel: 'حتى الشمس ياشمسي تحاول ان تشبهك' — كوب أسود مع شمس ذهبية وخط عربي — 503 لايك",
+      "relevance_score": 10,
+      "suggested_section": "videos / featured_reels",
+      "duration_if_known": "~9 seconds (Instagram Reel)",
+      "size_bytes": 1444620,
+      "poster_image": "images/posts/post01-cups-drawing.jpg"
+    },
+    {
+      "file_name": "videos/posts/reel02-cups-drawing.mp4",
+      "original_source": "https://www.instagram.com/p/6727486610266821423970/",
+      "original_picnob_url": "https://www.picnob.com/post/6727486610266821423970/",
+      "original_video_url": "https://scontent-dfw5-1.cdninstagram.com/o1/v/t2/f2/m86/AQMVhpor1VbwhXRnNLEHOc3KHpORSGLL2R1Fla-AblQPZtE6Z4xym-lRIV19ROfl_EMatq7TFomeZmDxQw0LXpqDJRSyvaSektX-IZw.mp4",
+      "type": "reel",
+      "post_id": "6727486610266821423970",
+      "caption_or_note": "Reel: 'حتى الشمس ياشمسي تحاول ان تشبهك' — نسخة ثانية من نفس الفكرة — 246 لايك",
+      "relevance_score": 8,
+      "suggested_section": "videos / secondary_reel",
+      "duration_if_known": "~9 seconds (Instagram Reel)",
+      "size_bytes": 1443610,
+      "poster_image": "images/posts/post02-cups-drawing.jpg"
+    },
+    {
+      "file_name": "videos/posts/reel03-conan-haibara.mp4",
+      "original_source": "https://www.instagram.com/p/6720374950504567674220/",
+      "original_picnob_url": "https://www.picnob.com/post/6720374950504567674220/",
+      "original_video_url": "https://scontent-dfw5-1.ccdninstagram.com/o1/v/t2/f2/m367/AQNLwaMhWSP7ldribxZI9JWQ8ofOj9HuxQAjfvkON9u6-3ENCgBH7_6doRICVMk9vWxgGKbhpIptt44VyHMQz1weRnpvUY2sp_SgZvs.mp4",
+      "type": "reel",
+      "post_id": "6720374950504567674220",
+      "caption_or_note": "Reel: Conan❣️Habara — فيديو يرسم فيه شخصية هايبارا على كوب أسود — 28 لايك",
+      "relevance_score": 9,
+      "suggested_section": "videos / featured_reel_anime",
+      "duration_if_known": "~8 seconds (Instagram Reel)",
+      "size_bytes": 1037559,
+      "poster_image": "images/posts/post06-conan-haibara-reel.jpg"
+    }
+  ],
+  "all_videos_from_same_account": true,
+  "no_external_sources_used": true,
+  "notes": "تم تنزيل 3 فيديوهات فقط من أصل 3 فيديوهات ظاهرة في الحساب. الحد الأقصى المسموح 4 فيديوهات. كل الفيديوهات من بوستات @uniq_pi فقط."
+}

@@ -1,0 +1,101 @@
+{
+  "username": "uniq_pi",
+  "display_name": "يونيك بيس",
+  "instagram_url": "https://www.instagram.com/uniq_pi/",
+  "instagram_user_id": "47726492606",
+  "bio": "\" اصنع من شغفك وظيفة \"\nموثـقين في منصة معروف\nلدينا توصيل للمملكة ودول الخليج\n📍الرياض",
+  "followers": 1747,
+  "following": 35,
+  "posts_count": 54,
+  "country": "Saudi Arabia",
+  "city": "Riyadh",
+  "phone": null,
+  "email": null,
+  "website": null,
+  "has_website": false,
+  "marouf_verified": true,
+  "delivery_zones": ["Saudi Arabia", "Gulf Countries"],
+  "base_location": "Riyadh, Saudi Arabia",
+  "niche": "Hand-painted custom ceramic mugs with anime/manga characters and Arabic calligraphy",
+  "categories": [
+    "Hand-painted Mugs",
+    "Anime Art",
+    "Detective Conan Collection",
+    "Naruto Collection",
+    "Arabic Calligraphy",
+    "Custom Art Commissions",
+    "Customized Gifts"
+  ],
+  "products": [
+    {
+      "id": "mug-conan",
+      "name": "كوب كونان المرسوم يدوياً",
+      "name_en": "Hand-painted Conan Mug",
+      "category": "Detective Conan Collection",
+      "description": "كوب سيراميك أسود مطفى مرسوم عليه يدوياً شخصية كونان من Detective Conan",
+      "description_en": "Matte black ceramic mug with hand-painted Conan character from Detective Conan",
+      "inspired_by_post": "post11-anime.jpg"
+    },
+    {
+      "id": "mug-haibara",
+      "name": "كوب هايبارا المرسوم يدوياً",
+      "name_en": "Hand-painted Haibara Mug",
+      "category": "Detective Conan Collection",
+      "description": "كوب سيراميك أسود مطفى مرسوم عليه يدوياً شخصية هايبارا (فِرمَث) من Detective Conan",
+      "description_en": "Matte black ceramic mug with hand-painted Haibara (Vermouth) character from Detective Conan",
+      "inspired_by_post": "post03-conan-haibara.jpg"
+    },
+    {
+      "id": "mug-akai",
+      "name": "كوب أكاي شو المرسوم يدوياً",
+      "name_en": "Hand-painted Akai Shuichi Mug",
+      "category": "Detective Conan Collection",
+      "description": "كوب سيراميك أسود مطفى مرسوم عليه يدوياً شخصية أكاي شو من Detective Conan بمنظار التصوير",
+      "description_en": "Matte black ceramic mug with hand-painted Akai Shuichi character from Detective Conan with sniper scope",
+      "inspired_by_post": "post08-akai.jpg"
+    },
+    {
+      "id": "mug-heiji",
+      "name": "كوب هيجي هاتوري المرسوم يدوياً",
+      "name_en": "Hand-painted Heiji Hattori Mug",
+      "category": "Detective Conan Collection",
+      "description": "كوب سيراميك أسود مطفى مرسوم عليه يدوياً شخصية هيجي هاتوري من Detective Conan",
+      "description_en": "Matte black ceramic mug with hand-painted Heiji Hattori character from Detective Conan",
+      "inspired_by_post": "post07-heiji-hattori.jpg"
+    },
+    {
+      "id": "mug-itachi",
+      "name": "كوب إيتاتشي المرسوم يدوياً",
+      "name_en": "Hand-painted Itachi Mug",
+      "category": "Naruto Collection",
+      "description": "كوب سيراميك أسود مطفى مرسوم عليه يدوياً شخصية إيتاتشي من Naruto",
+      "description_en": "Matte black ceramic mug with hand-painted Itachi Uchiha character from Naruto",
+      "inspired_by_post": "post04-itachi.jpg"
+    },
+    {
+      "id": "mug-sun-calligraphy",
+      "name": "كوب الشمس والخط العربي",
+      "name_en": "Sun & Arabic Calligraphy Mug",
+      "category": "Custom Art / Calligraphy",
+      "description": "كوب سيراميك أسود مطفى مرسوم عليه يدوياً شمس بأسلوب خط عربي مع أبيات شعرية: 'حتى الشمس يا شمسي تحاول أن تشبهك'",
+      "description_en": "Matte black ceramic mug with hand-painted sun in Arabic calligraphy style, with poetic verse: 'Even the sun, my sun, tries to be like you'",
+      "inspired_by_post": "post01-cups-drawing.jpg"
+    },
+    {
+      "id": "custom-mug",
+      "name": "كوب مخصص حسب الطلب",
+      "name_en": "Custom Hand-painted Mug",
+      "category": "Custom Art Commissions",
+      "description": "اطلب رسم شخصيتك أو كلمتك المفضلة على كوب أسود مطفى",
+      "description_en": "Order your own character or favorite word painted on a matte black ceramic mug",
+      "inspired_by_post": null
+    }
+  ],
+  "instagram_posts_summary": {
+    "visible_posts": 12,
+    "total_posts": 54,
+    "video_reels": 3,
+    "image_carousels": 9,
+    "single_images": 0
+  }
+}
