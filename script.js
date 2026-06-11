@@ -319,7 +319,120 @@
   });
 
   // ============================================================
-  // 14. Log analytics-ready event
+  // 14. Projects Gallery Modal
+  // ============================================================
+  const projectModal = document.getElementById('project-modal');
+  const projectModalTitle = document.getElementById('project-modal-title');
+  const projectModalGrid = document.getElementById('project-modal-grid');
+  const projectLightbox = document.getElementById('project-modal-lightbox');
+  const projectLightboxImg = document.getElementById('project-modal-lightbox-img');
+  const projectLightboxClose = document.querySelector('.project-modal-lightbox-close');
+  const projectLightboxPrev = document.querySelector('.project-modal-lightbox-prev');
+  const projectLightboxNext = document.querySelector('.project-modal-lightbox-next');
+  let currentProjectImages = [];
+  let currentImageIndex = 0;
+
+  document.querySelectorAll('.project-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const title = card.querySelector('h3').textContent;
+      const imagesRaw = card.getAttribute('data-images');
+      if (!imagesRaw || !projectModal || !projectModalGrid) return;
+
+      try {
+        currentProjectImages = JSON.parse(imagesRaw);
+      } catch (e) { return; }
+
+      projectModalTitle.textContent = title;
+      projectModalGrid.innerHTML = '';
+
+      currentProjectImages.forEach((src, i) => {
+        const img = document.createElement('img');
+        img.src = src;
+        img.alt = title + ' - صورة ' + (i + 1);
+        img.loading = 'lazy';
+        img.addEventListener('click', () => openProjectLightbox(i));
+        projectModalGrid.appendChild(img);
+      });
+
+      projectModal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function openProjectLightbox(index) {
+    if (!projectLightbox || !projectLightboxImg || currentProjectImages.length === 0) return;
+    currentImageIndex = index;
+    projectLightboxImg.src = currentProjectImages[currentImageIndex];
+    projectLightboxImg.alt = projectModalTitle.textContent + ' - صورة ' + (currentImageIndex + 1);
+    projectLightbox.classList.add('active');
+  }
+
+  function closeProjectLightbox() {
+    if (projectLightbox) projectLightbox.classList.remove('active');
+  }
+
+  function closeProjectModal() {
+    if (projectModal) {
+      projectModal.classList.remove('active');
+      document.body.style.overflow = '';
+      closeProjectLightbox();
+    }
+  }
+
+  if (projectLightboxClose) {
+    projectLightboxClose.addEventListener('click', (e) => { e.stopPropagation(); closeProjectLightbox(); });
+  }
+
+  if (projectLightboxPrev) {
+    projectLightboxPrev.addEventListener('click', (e) => {
+      e.stopPropagation();
+      currentImageIndex = (currentImageIndex - 1 + currentProjectImages.length) % currentProjectImages.length;
+      projectLightboxImg.src = currentProjectImages[currentImageIndex];
+    });
+  }
+
+  if (projectLightboxNext) {
+    projectLightboxNext.addEventListener('click', (e) => {
+      e.stopPropagation();
+      currentImageIndex = (currentImageIndex + 1) % currentProjectImages.length;
+      projectLightboxImg.src = currentProjectImages[currentImageIndex];
+    });
+  }
+
+  if (projectModal) {
+    projectModal.addEventListener('click', (e) => {
+      if (e.target === projectModal || e.target.classList.contains('project-modal-inner')) {
+        closeProjectModal();
+      }
+    });
+  }
+
+  if (projectLightbox) {
+    projectLightbox.addEventListener('click', (e) => {
+      if (e.target === projectLightbox) closeProjectLightbox();
+    });
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      if (projectLightbox && projectLightbox.classList.contains('active')) {
+        closeProjectLightbox();
+      } else if (projectModal && projectModal.classList.contains('active')) {
+        closeProjectModal();
+      }
+    }
+    if (e.key === 'ArrowLeft' && projectLightbox && projectLightbox.classList.contains('active')) {
+      currentImageIndex = (currentImageIndex + 1) % currentProjectImages.length;
+      projectLightboxImg.src = currentProjectImages[currentImageIndex];
+    }
+    if (e.key === 'ArrowRight' && projectLightbox && projectLightbox.classList.contains('active')) {
+      currentImageIndex = (currentImageIndex - 1 + currentProjectImages.length) % currentProjectImages.length;
+      projectLightboxImg.src = currentProjectImages[currentImageIndex];
+    }
+  });
+
+  // ============================================================
+  // 15. Log analytics-ready event
   // ============================================================
   console.log('%c🎨 Uniq Piece', 'color: #D4A24C; font-size: 18px; font-weight: 900;');
   console.log('%cأعمال يدوية من القلب', 'color: #E8DCC4; font-size: 12px;');

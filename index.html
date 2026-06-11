@@ -76,6 +76,7 @@
 
         <nav aria-label="القائمة الرئيسية">
           <ul class="nav-list">
+            <li><a href="#projects">مشاريعنا</a></li>
             <li><a href="#about">القصة</a></li>
             <li><a href="#collections">المجموعات</a></li>
             <li><a href="#gallery">المعرض</a></li>
@@ -168,6 +169,86 @@
     </div>
   </section>
 
+  <!-- =================== PROJECTS =================== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">مشاريعنا</span>
+        <h2>شاهد أعمالنا</h2>
+        <p>كل مشروع له قصة. اضغط على أي مشروع لاستعرض جميع الصور.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal" data-project="conan" data-images='["images/posts/post11-anime.jpg","images/posts/post03-conan-haibara.jpg","images/posts/post07-heiji-hattori.jpg","images/posts/post08-akai.jpg","images/posts/post09-akai-shu.jpg"]'>
+          <div class="project-cover">
+            <img src="images/posts/post11-anime.jpg" alt="مشروع Detective Conan" loading="lazy">
+            <div class="project-cover-overlay"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-count">5 صور</span>
+            <h3>Detective Conan</h3>
+            <p>كونان، هايبارا، أكاي شو، هيجي هاتوري... شخصيات مرسومة يدوياً على أكواب سوداء مطفية.</p>
+            <span class="project-cta">استعرض الصور ←</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-1" data-project="naruto" data-images='["images/posts/post04-itachi.jpg"]'>
+          <div class="project-cover">
+            <img src="images/posts/post04-itachi.jpg" alt="مشروع Naruto" loading="lazy">
+            <div class="project-cover-overlay"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-count">1 صورة</span>
+            <h3>Naruto</h3>
+            <p>إيتاتشي أوتشها بتفاصيل الشارينغان الدقيقة. شخصية تستاهل كوب أسود خاص.</p>
+            <span class="project-cta">استعرض الصور ←</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-2" data-project="calligraphy" data-images='["images/posts/post01-cups-drawing.jpg","images/posts/post02-cups-drawing.jpg"]'>
+          <div class="project-cover">
+            <img src="images/posts/post01-cups-drawing.jpg" alt="مشروع الخط العربي" loading="lazy">
+            <div class="project-cover-overlay"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-count">2 صور</span>
+            <h3>الخط العربي</h3>
+            <p>أبيات شعرية وعبارات حب مرسومة بخط يدوي أصيل على الأكواب والعلب.</p>
+            <span class="project-cta">استعرض الصور ←</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-3" data-project="workshop" data-images='["images/posts/post06-conan-haibara-reel.jpg","images/posts/post05-anime-drawing.jpg"]'>
+          <div class="project-cover">
+            <img src="images/posts/post06-conan-haibara-reel.jpg" alt="مشروع من الورشة" loading="lazy">
+            <div class="project-cover-overlay"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-count">2 صور</span>
+            <h3>من الورشة</h3>
+            <p>لحظات الرسم والتغليف اليدوي. كل خطوة بحب واهتمام.</p>
+            <span class="project-cta">استعرض الصور ←</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== PROJECT GALLERY MODAL =================== -->
+  <div class="project-modal" id="project-modal" role="dialog" aria-label="عارض الصور">
+    <div class="project-modal-inner">
+      <button class="project-modal-close" aria-label="إغلاق">×</button>
+      <h3 class="project-modal-title" id="project-modal-title"></h3>
+      <div class="project-modal-grid" id="project-modal-grid"></div>
+      <div class="project-modal-lightbox" id="project-modal-lightbox">
+        <button class="project-modal-lightbox-close" aria-label="إغلاق الصورة">×</button>
+        <img class="project-modal-lightbox-img" id="project-modal-lightbox-img" alt="">
+        <button class="project-modal-lightbox-prev" aria-label="الصورة السابقة">→</button>
+        <button class="project-modal-lightbox-next" aria-label="الصورة التالية">←</button>
+      </div>
+    </div>
+  </div>
+
   <!-- =================== ABOUT =================== -->
   <section id="about" class="about">
     <div class="container">
@@ -194,7 +275,7 @@
         </div>
 
         <div class="about-visual reveal reveal-delay-2">
-          <img src="images/posts/post01-cups-drawing.jpg" alt="كوب أسود مطفى مرسوم عليه شمس ذهبية مع أبيات عربية">
+          <img src="images/posts/post08-akai.jpg" alt="لوحة فنية يدوية لشخصية أنمي مرسومة بتفاصيل دقيقة">
         </div>
       </div>
     </div>
@@ -870,6 +951,7 @@
         <div>
           <h5>روابط سريعة</h5>
           <ul class="footer-links">
+            <li><a href="#projects">مشاريعنا</a></li>
             <li><a href="#about">القصة</a></li>
             <li><a href="#collections">المجموعات</a></li>
             <li><a href="#gallery">المعرض</a></li>
